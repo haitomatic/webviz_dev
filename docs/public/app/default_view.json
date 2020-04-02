@@ -1,0 +1,73 @@
+{
+  "layout": {
+    "first": {
+      "direction": "column",
+      "second": "DiagnosticStatusPanel!19zmd4j",
+      "first": "DiagnosticSummary!3edblo1"
+    },
+    "second": {
+      "first": {
+        "first": "ImageViewPanel!1hwtl4t",
+        "second": "ImageViewPanel!2ojhbyq",
+        "direction": "row"
+      },
+      "second": "Plot!4jlevtb",
+      "direction": "column",
+      "splitPercentage": 69.15995397008055
+    },
+    "direction": "row",
+    "splitPercentage": 25.69148936170213
+  },
+  "savedProps": {
+    "DiagnosticStatusPanel!19zmd4j": {
+      "topicToRender": "/diagnostics",
+      "selectedHardwareId": "spider",
+      "selectedName": "diskmonitor: Disk space monitor"
+    },
+    "ImageViewPanel!1hwtl4t": {
+      "cameraTopic": "/front_fisheye_node/image_raw/compressed",
+      "enabledMarkerTopics": [],
+      "scale": 0.2,
+      "transformMarkers": true,
+      "synchronize": false,
+      "mode": "fit",
+      "zoomPercentage": 109.21875000000001,
+      "offset": [
+        -0.5000000000001137,
+        38.375
+      ]
+    },
+    "Plot!4jlevtb": {
+      "paths": [
+        {
+          "value": "/air/robot_pose.position.x",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "minYValue": "",
+      "maxYValue": "",
+      "showLegend": true,
+      "xAxisVal": "timestamp"
+    },
+    "ImageViewPanel!2ojhbyq": {
+      "cameraTopic": "/rear_fisheye_node/image_raw/compressed",
+      "enabledMarkerTopics": [],
+      "scale": 0.2,
+      "transformMarkers": true,
+      "synchronize": false,
+      "mode": "fit",
+      "zoomPercentage": 109.21875000000001,
+      "offset": [
+        -0.5000000000001137,
+        38.375
+      ]
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "linkedGlobalVariables": [],
+  "playbackConfig": {
+    "speed": 0.2
+  }
+}
